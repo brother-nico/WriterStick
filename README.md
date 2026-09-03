@@ -68,9 +68,9 @@ These instructions were adapted from the [Raspberry Pi Connect project here](htt
 
 ## Step 3: Download and run `writerstick-setup.sh` on your Raspberry Pi.
 
-Download `writerstick-setup.sh` from this repository to your Raspberry Pi.
+Download `writerstick-setup.sh` from this repository to your Raspberry Pi. **TIP: Download as a ZIP with the green "Code" button in the upper right, then extract it, and move `writerstick-setup` to your Downloads folder. This ensures the .sh doesn't become an HTML file along the way.**
 
-Then, open a terminal in the folder you downloaded it to.
+Then, open a terminal in the folder you downloaded it to. This can be done through the Tools section in the folder window, or you can hit `CTRL + ALT + T` to open the terminal, then type in `cd ~/Downloads` and hit Enter to change directories
 
 Type or paste in `bash writerstick-setup.sh` and hit enter.
 
@@ -108,7 +108,7 @@ Toggling fullscreen on your browser reproduces the writerdeck environment, altho
 
 FocusWriter saves its files to a folder of your choice on local storage. The easiest way to ensure your work is backed up or can be accessed on other devices is to set up Syncthing.
 
-To do so, toggle off Fullscreen, then follow the [Getting Started guide here.](https://docs.syncthing.net/intro/getting-started.html)
+To do so, toggle off Fullscreen with F11, or hti `CTRL + Q` to quit FocusWriter. Then, follow the [Getting Started guide here.](https://docs.syncthing.net/intro/getting-started.html)
 
 # That's It
 
