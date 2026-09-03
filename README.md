@@ -36,7 +36,7 @@ Follow setup steps from there.
 
 Once the OS is flashed to the microSD card, eject it, then insert it into your Raspberry Pi device. (This guide presumes you have a monitor, mouse, and keyboard connected for setup. They won't be required if you leave it running somewhere and remote access in with another device, like a laptop.)
 
-Start it up, then follow the steps to set up the OS.
+Start it up, then follow the steps to set up the OS. Be sure to connect to the internet while doing so.
 
 
 ## Step 2: Enable Raspberry Pi Connect
@@ -44,8 +44,11 @@ Start it up, then follow the steps to set up the OS.
 Visit [https://id.raspberrypi.com/sign-up](https://id.raspberrypi.com/sign-up) in a web browser on any computer, and fill out the form to register for a Raspberry Pi ID.
 
 Open a terminal on your Raspberry Pi. Run the following commands, one by one:
+
 `sudo apt update`
+
 `sudo apt upgrade`
+
 `sudo apt install rpi-connect`
 
 Once installation is complete, reboot your device.
